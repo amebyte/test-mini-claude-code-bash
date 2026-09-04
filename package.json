@@ -1,0 +1,21 @@
+{
+  "name": "claude-code-m3",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "description": "Claude Code 源码最小还原实现 · T3 第一个真实工具：Bash",
+  "scripts": {
+    "dev": "tsx src/entrypoints/cli.tsx",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.120.0",
+    "commander": "^15.0.0",
+    "dotenv": "^17.4.2"
+  }
+}
